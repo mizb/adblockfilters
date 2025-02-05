@@ -3,8 +3,8 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250205093724
-! Last modified: 2025/02/05 09:37:24
+! Version: 20250205162418
+! Last modified: 2025/02/05 16:24:18
 ! Blocked domains: 6150
 ! unBlocked domains: 16
 !
@@ -31,7 +31,6 @@
 ||0olut8.cn^
 ||0x5.me^
 ||10000xing.cn^
-||1717.1000uc.com^
 ||analytics.10010.com^
 ||m1.ad.10010.com^
 ||smartad.10010.com^
@@ -327,6 +326,7 @@
 ||v16.56.com^
 ||www.56.com^
 ||3.5646.cn^
+||dl.1003b.56a.com^
 ||56fba.cn^
 ||adshow.58.com^
 ||brandshow.58.com^
@@ -780,6 +780,7 @@
 ||ftwo-feedback.autohome.com.cn^
 ||ftwo-receiver.autohome.com.cn^
 ||idm.api.autohome.com.cn^
+||leads.autohome.com.cn^
 ||public.app.autohome.com.cn^
 ||push.app.autohome.com.cn^
 ||rd.autohome.com.cn^
@@ -835,12 +836,14 @@
 ||caclick.baidu.com^
 ||cb.baidu.com^
 ||cbjs.baidu.com^
+||cdn-haokanapk.baidu.com^
 ||click.bes.baidu.com^
 ||cm.baidu.com^
 ||collector.dcdn.baidu.com^
 ||cpro.baidu.com^
 ||cpro.zhidao.baidu.com^
 ||cpu.baidu.com^
+||cpucdn.baidu.com^
 ||crab.baidu.com^
 ||crs.baidu.com^
 ||cstm.baidu.com^
@@ -976,7 +979,6 @@
 ||q.baminw.com.cn^
 ||active.baofeng.com^
 ||midinfo.baofeng.com^
-||a.baomihua.com^
 ||resource.baomihua.com^
 ||bartender.cc^
 ||webpage.batianhu.cn^
@@ -995,6 +997,7 @@
 ||aod-image-material.cdn.bcebos.com^
 ||baiducom.bj.bcebos.com^
 ||bdyingxiaocms.cdn.bcebos.com^
+||cpu-baidu-com-block.cdn.bcebos.com^
 ||dingbu.bj.bcebos.com^
 ||dsp-idea.cdn.bcebos.com^
 ||edu-ad-test-cdn.cdn.bcebos.com^
@@ -1002,6 +1005,7 @@
 ||gg88.bj.bcebos.com^
 ||global-staticplat.cdn.bcebos.com^
 ||mobads-pre-config.cdn.bcebos.com^
+||pmp-ad.cdn.bcebos.com^
 ||qwe0231141.bj.bcebos.com^
 ||tob-cms.bj.bcebos.com^
 ||vv84.bj.bcebos.com^
@@ -1172,7 +1176,6 @@
 ||btyou.com^
 ||beijing.buzhi5.com^
 ||canadapost-postescanada.bvkx.cn^
-||aramex.bvte.cn^
 ||bvubasnf.com^
 ||ad.bwton.com^
 ||dlogs.bwton.com^
@@ -1323,7 +1326,6 @@
 ||topapi.cp12.ott.cibntv.net^
 ||valf.atm.cp31.ott.cibntv.net^
 ||vali-g1.cp31.ott.cibntv.net^
-||global.cisie.cn^
 ||metrics.citibank.cn^
 ||smetrics.citibank.cn^
 ||tracker.citicsinfo.com^
@@ -1806,7 +1808,7 @@
 ||ecudsc.cn^
 ||ediuschina.com^
 ||eexlgyn.cn^
-||efsi.cn^
+||canadapost-postescanada.efsi.cn^
 ||metrics.egencia.cn^
 ||egrent.cn^
 ||plugin-check.egret.com^
@@ -2099,6 +2101,7 @@
 ||adsense.google.cn^
 ||adservice.google.com^
 ||pagead-googlehosted.l.google.com^
+||partnerad.l.google.com^
 ||ssl-google-analytics.l.google.com^
 ||static-doubleclick-net.l.google.com^
 ||www-google-analytics.l.google.com^
@@ -2170,7 +2173,6 @@
 ||guzsjdl.cn^
 ||gvt2-cn.com^
 ||gw2cddpt2hao.asia^
-||gw2cddpt2hao.cloud^
 ||gwmrb.cn^
 ||gwrpceo.cn^
 ||gxgbvmg.cn^
@@ -2444,6 +2446,7 @@
 ||matomocdn.huazhi.cloud^
 ||hubcloud.com.cn^
 ||hubiazhi.com^
+||hufajushi.top^
 ||huimee.net^
 ||huishenghuiying.com.cn^
 ||mc.hujiang.com^
@@ -2453,7 +2456,6 @@
 ||hulichuang.mobi^
 ||log.hunantv.com^
 ||log.v2.hunantv.com^
-||huoche.com.cn^
 ||huoying666.com^
 ||adx.hupu.com^
 ||goblin.hupu.com^
@@ -2544,7 +2546,6 @@
 ||iimedia.cn^
 ||www.iiyout.cn^
 ||ijinshan.com^
-||lm.ijq.tv^
 ||ijvla.cn^
 ||ili100.cn^
 ||ilkwork.com^
@@ -2588,7 +2589,7 @@
 ||gw.innotechx.com^
 ||inping.com^
 ||click.inplayable.com^
-||ixvdfqi.inqku.cn^
+||inquire-jq.top^
 ||insenz.com^
 ||ainu.intel.cn^
 ||elqtrk.intel.cn^
@@ -2883,7 +2884,6 @@
 ||kkkaii.cn^
 ||houyi.kkmh.com^
 ||ipv4.kkmh.com^
-||affiliate.klook.com^
 ||kmgfjc.cn^
 ||ykkvnoxal.kmhul.cn^
 ||kmpxq.cn^
@@ -3006,9 +3006,6 @@
 ||dw-collect.ksosoft.com^
 ||dw-online.ksosoft.com^
 ||ic.ksosoft.com^
-||mdbquj.ksoyw.cn^
-||nddmukby.ksoyw.cn^
-||xldqxwdmew.ksoyw.cn^
 ||api.kingdata.ksyun.com^
 ||hdns.ksyun.com^
 ||kszvmqo.cn^
@@ -3597,9 +3594,6 @@
 ||sfsafsadfjbbj-dsafjnb-1321533417.cos.ap-beijing.myqcloud.com^
 ||analytics.api.myqnapcloud.cn^
 ||saadsfds7.myshoplaza.com^
-||salewashop-pl.myshoplaza.com^
-||salewashopiing.myshoplaza.com^
-||salewashopping.myshoplaza.com^
 ||analytics.myshoptago.com^
 ||gafxa.code.mytanwan.com^
 ||ldpgl.code.mytanwan.com^
@@ -3830,6 +3824,7 @@
 ||open.play.cn^
 ||res.play700.com^
 ||bdx.playnext.cn^
+||plmn5.com^
 ||pmensrl.cn^
 ||pmiskc.cn^
 ||pmvlwjy.cn^
@@ -3863,6 +3858,7 @@
 ||de.as.pptv.com^
 ||g.pptv.com^
 ||jp.as.pptv.com^
+||pp2.pptv.com^
 ||way.pptv.com^
 ||zt.pptv.com^
 ||ppxscy1.cn^
@@ -3887,6 +3883,7 @@
 ||ssp.putaojiu.com^
 ||apple.pvxt.net^
 ||dm.pw0.cn^
+||pw2ct1.asia^
 ||pxhuiben.com^
 ||cdn.pyadx.com^
 ||pypwxvo.cn^
@@ -4368,7 +4365,6 @@
 ||shankejingling.com^
 ||shaohun.cn^
 ||sharele.cn^
-||z.shavsl.com^
 ||sc.shayugg.com^
 ||shengminsy.com^
 ||www.shengxinwang.net^
@@ -4436,7 +4432,10 @@
 ||d00.sina.com.cn^
 ||d1.sina.com.cn^
 ||d2.sina.com.cn^
+||d3.sina.com.cn^
+||d4.sina.com.cn^
 ||d5.sina.com.cn^
+||d6.sina.com.cn^
 ||d7.sina.com.cn^
 ||d8.sina.com.cn^
 ||d9.sina.com.cn^
@@ -4458,10 +4457,13 @@
 ||woocall.sina.com.cn^
 ||pfp.sina.net^
 ||ad.us.sinaimg.cn^
+||d1.sinaimg.cn^
+||d6.sinaimg.cn^
+||d8.sinaimg.cn^
 ||hits.sinajs.cn^
 ||newspush.sinajs.cn^
 ||rs.sinajs.cn^
-||tjs.sjs.sinajs.cn^
+||simg.sinajs.cn^
 ||sinawap.com^
 ||siom.ac.cn^
 ||sitebot.cn^
@@ -4629,6 +4631,7 @@
 ||dcbpm.suning.cn^
 ||sa.suning.cn^
 ||adls.suning.com^
+||dfp.suning.com^
 ||mmds.suning.com^
 ||oss.suning.com^
 ||ossup.suning.com^
@@ -4694,7 +4697,6 @@
 ||szpwg.cn^
 ||szpzm.cn^
 ||t28goe.cn^
-||t2a38z9yl.top^
 ||metrics.t3go.cn^
 ||taboola.com.cn^
 ||tagcommander.com^
@@ -4817,7 +4819,6 @@
 ||telegzpqm.cn^
 ||telepcvne.cn^
 ||telepzow.cn^
-||teleqvom.cn^
 ||televpqm.cn^
 ||telezgrme.cn^
 ||apd-pcdnwxlogin.teg.tencent-cloud.net^
@@ -5344,7 +5345,6 @@
 ||gw5.push.mcp.weibo.cn^
 ||promote.biz.weibo.cn^
 ||ad.weibo.com^
-||adimg.uve.weibo.com^
 ||alitui.weibo.com^
 ||sdkapp.uve.weibo.com^
 ||tui.weibo.com^
@@ -5452,7 +5452,6 @@
 ||a.wzu.com^
 ||x-f.fun^
 ||x-steam.com^
-||www.xaxrxf.cn^
 ||xbtw.com^
 ||d0.xcar.com.cn^
 ||dw.xcar.com.cn^
@@ -5604,6 +5603,7 @@
 ||s.api.xiaoying.co^
 ||t.api.xiaoying.co^
 ||viva.api.xiaoying.co^
+||xiaozhen.com^
 ||xiaozuowen.net^
 ||xibao100.com^
 ||bd1.xiby.cn^
