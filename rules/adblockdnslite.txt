@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250822003357
-! Last modified: 2025/08/22 00:33:57
-! Blocked domains: 6435
+! Version: 20250822095004
+! Last modified: 2025/08/22 09:50:04
+! Blocked domains: 6430
 ! unBlocked domains: 16
 !
 ||kwcdn.000dn.com^
@@ -330,6 +330,7 @@
 ||52pk.com^
 ||adm.52swine.com^
 ||slzs.52xiyou.com^
+||api.52youtu.com^
 ||52z.com^
 ||a.52zxw.com^
 ||53kf.com^
@@ -509,7 +510,6 @@
 ||9xxy.icu^
 ||a2wx.icu^
 ||telemetry.cell-0.cn-north-1.prod.tangerinebox.console.aws.a2z.org.cn^
-||telemetry.cell-0.cn-northwest-1.prod.tangerinebox.console.aws.a2z.org.cn^
 ||a32a.com.cn^
 ||a3p4.net^
 ||a48505.cn^
@@ -1669,7 +1669,6 @@
 ||dloffice.net.cn^
 ||dlpuno.cn^
 ||dmrtb.com^
-||pa.dmv-tex.cc^
 ||xs.dmzj.com^
 ||dncvj.cn^
 ||dnd2.icu^
@@ -1906,6 +1905,7 @@
 ||ad.exyws.org^
 ||veepai-device-log.eye4.cn^
 ||jaccs-wifeari.eywd.cn^
+||qp.ezfxpuo.cn^
 ||g.f11w.com^
 ||sccdn.f2zd.com^
 ||g.f5gh.com^
@@ -2167,6 +2167,7 @@
 ||pagead-googlehosted.l.google.com^
 ||ssl-google-analytics.l.google.com^
 ||www-google-analytics.l.google.com^
+||www-googletagmanager.l.google.com^
 ||clickserver.googleads.com^
 ||googleadservices-cn.com^
 ||googleadservices.com^
@@ -2479,6 +2480,7 @@
 ||hstpnetwork.com^
 ||g.hsw.cn^
 ||hswfj.cn^
+||hsych.com^
 ||ht55.cn^
 ||htgdn.cn^
 ||hthvc.icu^
@@ -3409,7 +3411,6 @@
 ||lyua.cn^
 ||lywdoo.cn^
 ||ggle.lywf.me^
-||lzbkmd.cn^
 ||mlog.m1905.cn^
 ||counter.m1905.com^
 ||m.m216j.cn^
@@ -3615,7 +3616,6 @@
 ||metok.sys.miui.com^
 ||mqs-log.miui.com^
 ||notify.sec.miui.com^
-||pmir.sec.miui.com^
 ||port.sec.miui.com^
 ||port.sec.intl.miui.com^
 ||protect.dev.sec.intl.miui.com^
@@ -3796,6 +3796,7 @@
 ||jaccs-jejuno.nickyangs.cn^
 ||nimaxrv.cn^
 ||ninebox.cn^
+||down.nishuoa.com^
 ||nisihu.com.cn^
 ||nithisp.cn^
 ||taobao.niucha.ren^
@@ -4081,7 +4082,6 @@
 ||mobds.pthejzb.com^
 ||ptmabek.cn^
 ||ptmind.com^
-||ptyrk.cn^
 ||pufhzpt.cn^
 ||pig.pupuapi.com^
 ||puqer.cn^
@@ -4489,7 +4489,6 @@
 ||bi-tracker-cn.rivergame.net^
 ||bi-tracker-global.rivergame.net^
 ||tatracker-us.rivergame.net^
-||rkjzjos.cn^
 ||rljjt.cn^
 ||rmzbfum.cn^
 ||tags.roberthalf.cn^
@@ -5018,7 +5017,7 @@
 ||log.tec73.com^
 ||1.tecbbs.com^
 ||tongji.techweb.com.cn^
-||tecunonline.com^
+||www.tecunonline.com^
 ||teddymobile.cn^
 ||telegramcn.co^
 ||telepzow.cn^
@@ -5546,7 +5545,6 @@
 ||ru-vcode-api.vivoglobal.com^
 ||ru-vcode-od.vivoglobal.com^
 ||ru-vcode-or.vivoglobal.com^
-||sca-cota.vivoglobal.com^
 ||sca-domaincfg.vivoglobal.com^
 ||sca-err-up.vivoglobal.com^
 ||sca-onrt-stsdk.vivoglobal.com^
@@ -5827,7 +5825,6 @@
 ||cnbj1.fds.api.xiaomi.com^
 ||controller.india.xiaomi.com^
 ||data.game.xiaomi.com^
-||data.mistat.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||de.pandora.xiaomi.com^
 ||dvb.pandora.xiaomi.com^
@@ -5861,7 +5858,6 @@
 ||storeconfig.mistat.intl.xiaomi.com^
 ||sys.tv.india.xiaomi.com^
 ||t1.market.xiaomi.com^
-||t17.market.xiaomi.com^
 ||t2.market.xiaomi.com^
 ||t3.market.xiaomi.com^
 ||t4.market.xiaomi.com^
@@ -6178,6 +6174,7 @@
 ||yqlxkzs.cn^
 ||ys630.com^
 ||ad-material.ys7.com^
+||log.ys7.com^
 ||www.ysbaojia.com^
 ||ysjwj.com^
 ||ysqlmpo.cn^
@@ -6386,7 +6383,6 @@
 ||s.zlongad.com^
 ||zmdesf.cn^
 ||zmhqhuq.cn^
-||zmmmy.cn^
 ||resoacard-furti.zmtne.cn^
 ||p.zol-img.com.cn^
 ||pic.zol-img.com.cn^
@@ -6438,7 +6434,6 @@
 ||zyxyfy.com^
 ||og.zyzjpx.cn^
 ||zzad.com^
-||wap.zzatztc.cn^
 ||zzoffice.com.cn^
 ||log-auth.zztfly.com^
 ||zztxr.cn^
