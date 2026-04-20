@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、xinggsf rule、jiekouAD、1Hosts (Lite)、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、SmartTV Blocklist、1024 hosts、ad-wars hosts、StevenBlack hosts。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260420004931
-! Last modified: 2026/04/20 00:49:31
-! Blocked Filters: 43491
+! Version: 20260420112558
+! Last modified: 2026/04/20 11:25:58
+! Blocked Filters: 43492
 !
 ###AC_ad
 ###AD_160
@@ -28847,6 +28847,7 @@ bitetheass.com,nitroflare-porn.com##center > noindex
 bitporno.*#%#//scriptlet("abort-on-property-read", "_run")
 bitporno.*#%#//scriptlet("abort-on-property-write", "atOptions")
 bitsearch.to,solidtorrents.to#?##alart-box > .view-box:has(> #alart-message > a[target="_blank"])
+bitxzlhi*.top/$script,xmlhttprequest,third-party
 biz.ifeng.com##.header
 biz.ifeng.com##.riodel
 biznews.com,businessdailyafrica.com,coastreporter.net,financialexpress.com,irishtimes.com,komonews.com,nsnews.com,prpeak.com,richmond-news.com,spokesman.com##a[href*="/sponsored/"]
@@ -34273,7 +34274,6 @@ mixdrop.*#%#//scriptlet("set-constant", "MDinjectP3", "undefined")
 mixdrp.*##body > div[style^="position: absolute;"][style*="width: 100%; height: 100%; z-index:"]
 mixdrp.*,mixdrop.*#%#//scriptlet("set-constant", "MDCore.adblock", "0")
 mjzj.com##div[id^="sidebar-top-carouse"]
-mkfjbitxzlhijf*.top/$script,xmlhttprequest,third-party
 mkvcinemas.*###SH-Ads
 mkvcinemas.*##.code-block:has(a[title="mkvAnime"])
 mlbpark.donga.com,tweaksforgeeks.com#%#//scriptlet('remove-node-text', 'script', 'KCgpPT57bGV0IGU')
@@ -39658,6 +39658,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||advert*.livesportmedia.eu^
 ||advert*.ultraweb.hu^
 ||adverticum.*.hu^
+||advertising.civitai.
 ||adx-*.dbankcloud.
 ||adx-*.dbankedge.cn^
 ||adx-*.op.dbankcloud.com.edgekey.net^
